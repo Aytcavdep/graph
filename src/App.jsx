@@ -1,12 +1,11 @@
 // src/App.js
 import React from 'react';
-import CrossFilterDashboard from './components/CrossFilterDashboard';
-import './App.css';
+import SimpleBarChart from './components/SimpleBarChart';
 
 function App() {
   return (
     <div className="App">
-      <CrossFilterDashboard />
+      <SimpleBarChart />
     </div>
   );
 }
