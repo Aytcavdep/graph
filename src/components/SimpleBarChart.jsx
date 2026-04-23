@@ -52,7 +52,7 @@ const StyledBarChart = () => {
                 totalDistance: car.totalDistance
               }))
               .sort((a, b) => b.avgDistance - a.avgDistance)
-              .slice(0, 10); // Показываем топ-10 автомобилей
+              //.slice(0, 10); // Показываем топ-10 автомобилей
             
             setData(chartData);
             setLoading(false);
