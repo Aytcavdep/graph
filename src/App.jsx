@@ -1,12 +1,12 @@
 // src/App.js
 import React from 'react';
 import SimpleBarChart from './components/SimpleBarChart';
-import GradientBarChart from './components/GradientBarChart'
+import Step1 from './components/LineChart'
 
 function App() {
   return (
     <div className="App">
-      <GradientBarChart />
+      <Step1 />
     </div>
   );
 }
