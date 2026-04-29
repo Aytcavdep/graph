@@ -156,3 +156,5 @@ const GradientBarChart  = () => {
     </div>
   );
 };
+
+export default GradientBarChart;
